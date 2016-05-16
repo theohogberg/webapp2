@@ -15,7 +15,7 @@ Simple Twitter App
 
 **Run gulp before starting with `gulp`** 
 
-**Next you need to start the database and add a admin, run `mongo` in your CLI then `use webapp2` to create the db and then `db.users.insert( { name:'admin', followers:[], following:[] } )` to create the admin user. This must be done again if you wish to add more users. **
+**Next you need to start the database and add an admin. Run `mongo` in your CLI then `use webapp2` to create the db and then `db.users.insert( { name:'admin', followers:[], following:[] } )` to create the admin user. This must be done again if you wish to add more users.**
 
 **Start with `npm start` or `node app-backend.js`**
 
